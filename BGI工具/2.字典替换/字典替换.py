@@ -37,9 +37,9 @@ def replace_in_files(directory, dictionary):
                 file.write(content)
 
 def main():
-    # 字典文件路径 ！！！修改我
+    # ！！！字典文件路径 ！！！
     dict_path = 'game.json'
-    # 输入文件夹路径
+    #  ！！输入文件夹路径！！
     input_dir = 'input'
 
     # 加载并排序字典
