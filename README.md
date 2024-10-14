@@ -3,3 +3,6 @@
 
 工具1和工具3：https://github.com/xupefei/BGIKit（修改了工具的加密编码，CP936->CP932）  
 工具5：https://github.com/sudachen/Molebox
+
+方法二.
+用GalTransl_Dumplnjector，用正则表达式<\d+,\d+,\d+>「(.*?)」匹配正文，自己进行GPT翻译。
