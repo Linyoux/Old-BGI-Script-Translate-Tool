@@ -11,8 +11,7 @@ def load_and_sort_dict(file_path):
         # 加载JSON数据并将其转换为字典
         dict_data = json.load(file)
         # 按字典的键进行排序
-        sorted_dict = dict(sorted(dict_data.items()))
-    return sorted_dict
+    return dict_data
 
 def replace_in_files(directory, dictionary, used_dict):
     """
@@ -42,7 +41,7 @@ def replace_in_files(directory, dictionary, used_dict):
 
 def main():
     # ！！！字典文件路径 ！！！
-    dict_path = 'game.json'
+    dict_path = 'shift-jis.json'
     #  ！！输入文件夹路径！！
     input_dir = 'input'
 
