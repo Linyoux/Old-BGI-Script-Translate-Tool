@@ -1,3 +1,5 @@
+自己跑机翻
+
 https://github.com/xd2333/GalTransl
 https://github.com/xd2333/GalTransl_DumpInjector
 文本正则表达式 <\d+,\d+,\d+>「(.*?)」
