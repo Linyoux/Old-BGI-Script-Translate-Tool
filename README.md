@@ -5,4 +5,4 @@
 工具5：https://github.com/sudachen/Molebox
 
 方法二.
-用GalTransl_Dumplnjector，用正则表达式<\d+,\d+,\d+>「(.*?)」匹配正文，自己进行GPT翻译。
+用GalTransl_Dumplnjector，用正则表达式匹配正文，自己进行GPT翻译。
