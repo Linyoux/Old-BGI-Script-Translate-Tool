@@ -44,7 +44,7 @@ def main():
     # ！！！字典文件路径 ！！！
     dict_path = 'game.json'
     #  ！！输入文件夹路径！！
-    input_dir = 'input'
+    input_dir = 'TransZone'
 
     # 加载并排序字典
     dictionary = load_and_sort_dict(dict_path)
