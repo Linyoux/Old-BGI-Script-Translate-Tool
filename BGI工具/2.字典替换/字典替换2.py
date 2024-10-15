@@ -1,6 +1,7 @@
 import json
 import os
 from rapidfuzz import process, fuzz
+#需要安装rapidfuzz库
 
 def load_and_sort_dict(file_path):
     """
