@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: 设置文件夹路径
-set "folderPath=%~dp0data01990"
+set "folderPath=%~dp0DecodeInput"
 
 :: 遍历文件夹中的所有无后缀文件
 for %%f in ("%folderPath%\*") do (
