@@ -1,4 +1,4 @@
-自己跑机翻
+即自己跑机翻
 
 https://github.com/xd2333/GalTransl
 https://github.com/xd2333/GalTransl_DumpInjector
