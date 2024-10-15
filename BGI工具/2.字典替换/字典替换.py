@@ -52,7 +52,7 @@ def main():
     # 初始化记录使用过的键值对的字典
     used_dict = {}
     
-    # 对input文件夹内所有txt文件进行替换
+    # 对TransZone文件夹内所有txt文件进行替换
     replace_in_files(input_dir, dictionary, used_dict)
     
     # 将未使用的键值对写入新的JSON文件
