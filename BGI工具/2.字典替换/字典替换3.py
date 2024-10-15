@@ -34,10 +34,10 @@ def replace_in_files(directory, dictionary):
             with open(file_path, 'w', encoding='utf-8') as file:
                 file.write(content)
 def main():
-    # 字典文件路径 ！！！修改我
+    # ！！！字典文件路径 ！！！
     dict_path = 'shift-jis.json'
-    # 输入文件夹路径
-    input_dir = 'input'
+    # ！！输入文件夹路径！！
+    input_dir = 'TransZone'
     # 加载并排序字典
     dictionary = load_and_sort_dict(dict_path)
     
