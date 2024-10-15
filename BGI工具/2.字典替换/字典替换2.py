@@ -57,7 +57,7 @@ def main():
     # ！！！字典文件路径 ！！！
     dict_path = 'without_use.json'
     #  ！！输入文件夹路径！！
-    input_dir = 'input'
+    input_dir = 'TransZone'
 
     # 加载并排序字典
     dictionary = load_and_sort_dict(dict_path)
@@ -65,7 +65,7 @@ def main():
     # 初始化记录使用过的键值对的字典
     used_dict = {}
     
-    # 对input文件夹内所有txt文件进行替换
+    # 对TransZone文件夹内所有txt文件进行替换
     replace_in_files(input_dir, dictionary, used_dict)
     
     # 将未使用的键值对写入新的JSON文件
